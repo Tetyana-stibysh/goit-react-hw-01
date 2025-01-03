@@ -1,0 +1,33 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 42px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div {
+  padding: 24px 6px;
+  width: 212px;
+  border: 3px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  /* color: rgb(26, 29, 29); */
+  font-size: 32px;
+  font-weight: 500;
+}
+.online {
+  color: green;
+  font-size: 24px;
+  font-weight: 400;
+}
+.offline {
+  color: red;
+  font-size: 24px;
+  font-weight: 400;
+}

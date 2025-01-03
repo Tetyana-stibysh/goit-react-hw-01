@@ -1,0 +1,23 @@
+.table td,
+.table th {
+  padding: 8px 40px;
+  border: 2px solid #212121;
+}
+.table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thead {
+  background-color: #212121;
+  color: whitesmoke;
+}
+.row:nth-child(even) {
+  background-color: lightgrey;
+}
+.first {
+  text-transform: capitalize;
+}
+.second {
+  text-align: center;
+}
